@@ -37,6 +37,6 @@
 
   <img
     alt=""
-    src="https://raw.githubusercontent.com/TalibY22/snk/output/github-contribution-grid-snake.svg"
+    src="https://github.com/TalibY22/TalibY22/blob/output/github-contribution-grid-snake2.svg"
   />
 
