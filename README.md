@@ -34,6 +34,7 @@
 ###
 
 <br clear="both">
-![Snake animation](./snake.svg)
+<img src="https://raw.githubusercontent.com/TalibY22/main/snake.svg" alt="Snake animation" />
+
 
   
