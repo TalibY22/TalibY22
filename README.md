@@ -34,5 +34,6 @@
 ###
 
 <br clear="both">
+![Snake animation](./snake.svg)
 
   
