@@ -27,12 +27,20 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake.svg?palette=github-dark
 
-      # Push the snake.svg to the main branch
-      - name: Commit and push changes
+      # Verify if snake.svg exists
+      - name: Verify snake.svg exists
         run: |
+          if [ ! -f dist/snake.svg ]; then
+            echo "snake.svg not found!"
+            exit 1
+          fi
+
+      # Move snake.svg to root and commit
+      - name: Commit and push snake.svg
+        run: |
+          mv dist/snake.svg ./snake.svg
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
-          mv dist/snake.svg ./snake.svg
           git add snake.svg
           git commit -m "Generated snake.svg"
           git push
