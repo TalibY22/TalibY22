@@ -35,8 +35,4 @@
 
 <br clear="both">
 
-  <img
-    alt=""
-    src="https://github.com/TalibY22/TalibY22/blob/output/github-contribution-grid-snake2.svg"
-  />
-
+  <img src="https://raw.githubusercontent.com/TalibY22/TalibY22/output/snake.svg" alt="Snake animation" />
